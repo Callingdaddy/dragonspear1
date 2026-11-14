@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dragonspear",
+  "version": "${version}",
+  "name": "DragonSpear - Recording Helper",
+  "description": "Fabric port of the DragonSpear recording-helper plugin: /rh admin GUI, kits, god/fly/vanish/freeze, rollback and more.",
+  "authors": ["Krishna"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.sankiextra.dragonspear.DragonSpearFabric"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
